@@ -10,7 +10,7 @@ UCLASS()
 class HOMEWORK_API AMyActor : public AActor
 {
 	GENERATED_BODY()
-	FVector2D start = { 0.0, 0.0 }; 
+	FVector2D start = { 0.0, 0.0 };
 public:	
 	// Sets default values for this actor's properties
 	AMyActor();
