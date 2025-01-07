@@ -26,10 +26,11 @@ void AMyActor::move()
 		newpos = newPosition + FVector2D(static_cast<double>(step()), static_cast<double>(step()));
 		UE_LOG(LogTemp, Warning, TEXT("Current Position : ( %f, %f )"), newpos.X, newpos.Y);
 		UE_LOG(LogTemp, Warning, TEXT("Moved Distance : %f"), distance(newPosition, newpos));
+		totDist += distance(newPosition, newpos);
 		newPosition = newpos;
 		createEvent();
 	}
-	UE_LOG(LogTemp, Warning, TEXT("Total Distance : %f"), distance(start, newPosition));
+	UE_LOG(LogTemp, Warning, TEXT("Total Distance : %f"), totDist);
 	UE_LOG(LogTemp, Warning, TEXT("Total Event Count : %d"), evCnt);
 }
 

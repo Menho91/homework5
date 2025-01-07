@@ -13,7 +13,7 @@ class HOMEWORK_API AMyActor : public AActor
 	FVector2D start;
 	FVector2D newPosition;
 	int32 evCnt;
-	int totDist;
+	float totDist;
 
 public:	
 	// Sets default values for this actor's properties
