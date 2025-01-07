@@ -32,7 +32,7 @@ void AMyActor::move()
 		start += { static_cast<double>(step()), static_cast<double>(step()) };
 		UE_LOG(LogTemp, Warning, TEXT("Current Position : ( %f, %f )"), start.X, start.Y);
 	}
-}
+} 
 
 int32_t AMyActor::step()
 {
