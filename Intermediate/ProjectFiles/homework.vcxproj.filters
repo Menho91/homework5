@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\homework.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\homework.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\homeworkEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\homework">
+      <UniqueIdentifier>{253F7695-3B10-3CD6-BB2E-7778E6DAC2A9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\homework\homework.Build.cs">
+      <Filter>Source\homework</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\homework\homework.cpp">
+      <Filter>Source\homework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\homework\homework.h">
+      <Filter>Source\homework</Filter>
+    </ClCompile>
+    <Filter Include="Source\homework\Private">
+      <UniqueIdentifier>{FD470700-FD3F-3BF9-AB2B-F9591A8A6A2B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\homework\Private\MyActor.cpp">
+      <Filter>Source\homework\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\homework\Public">
+      <UniqueIdentifier>{49739F1C-DE5E-3796-9822-FDCA45694F68}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\homework\Public\MyActor.h">
+      <Filter>Source\homework\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
